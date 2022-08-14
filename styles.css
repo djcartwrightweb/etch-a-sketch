@@ -50,19 +50,24 @@ main {
 
 #board {
     border: 1px solid red;
-    width: 300px;
-    height: 500px;
+    width: 800px;
+    height: 450px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-}
-
-.col {
+    height: 100%;
     flex-basis: 100%;
 }
 
-.col
+.col {
+    border: 1px solid red;
+    flex-basis: 100%;
+}
+
+
 
