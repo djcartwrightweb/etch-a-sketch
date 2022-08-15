@@ -27,7 +27,7 @@ function createCol() {
         newCol.style.backgroundColor = 'black';
     });
     newCol.addEventListener('mouseleave', (e) => {
-        setTimeout(() => {newCol.style.backgroundColor = 'white'}, 200);
+        setTimeout(() => {newCol.style.backgroundColor = 'whitesmoke'}, 200);
     });
     return newCol;
 }
