@@ -1,3 +1,10 @@
+/*
+    * Created by DJ Cartwright 
+    * Etch-A-Sketch assignment for The Odin Project
+    *
+    * Completed August 21, 2022
+*/
+
 /*** Digital Ocean minimal css reset ***/
 
 html {
@@ -104,6 +111,7 @@ main {
     justify-content: center;
     align-items: center;
     box-shadow: 0.8px 1.6px 1.6px hsl(0deg 0% 0% / 0.48);
+    cursor: pointer;
 }
 
 p {
@@ -119,6 +127,10 @@ p {
 
 #control1, #control2 {
     font-size: 40px;
+}
+
+#clear {
+    line-height: 1.3em;
 }
 
 
